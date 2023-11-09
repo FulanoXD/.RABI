@@ -92,6 +92,7 @@ html {
   }
 
 body{
+    position: relative;
     margin: 0;
     padding: 0;
     background-color: white;
@@ -100,7 +101,7 @@ body{
 header{
     background: linear-gradient(to right, #0a2f0e, #2DA93B);
     text-align: center;
-    padding: 1%;
+    padding: 2%;
 }
 
 ul{
@@ -201,3 +202,23 @@ h4{
 .botao{
     background-color: #2DA93B;
 }
+
+@media (max-width: 768px) {
+  
+   .about_us {
+    top: -300px;
+    font-size: 80%;
+   }
+
+   .quadrado2 {
+
+    top: -100px;
+
+   }
+
+   header{
+
+    padding: 4%;
+}
+
+  }
